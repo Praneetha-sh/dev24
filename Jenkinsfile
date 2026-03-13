@@ -1,7 +1,7 @@
 pipeline{
   agent any
 
-  stage{
+  stages{
     stage('Compile Java Program'){
       steps{
         bat 'javac HelloWorld.java'
